@@ -65,8 +65,7 @@ const Tetris = () => {
   };
 
   const dropPlayer = () => {
-    // We don't need to run the interval when we use the arrow down to
-    // move the tetromino downwards. So deactivate it for now.
+    // We don't need to run the interval when we use the arrow down to move the tetromino downwards. So deactivate it for now.
     setDropTime(null);
     drop();
   };
